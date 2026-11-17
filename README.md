@@ -1,6 +1,6 @@
 # kimi-work-demo
 
-A minimal Python command-line application that demonstrates a clean project layout, automated tests, and GitHub Actions CI.
+A minimal Python command-line application that demonstrates a clean project layout and automated tests.
 
 ## Features
 
@@ -8,7 +8,6 @@ A minimal Python command-line application that demonstrates a clean project layo
 - `src/` package layout
 - Type hints and docstrings
 - Standard-library unit tests
-- GitHub Actions CI
 - MIT license
 
 ## Quick start
@@ -37,6 +36,8 @@ python -m kimi_work_demo --name "Kimi"
 
 ## Run tests
 
+After installing the project, run:
+
 ```bash
 python -m unittest discover -s tests -v
 ```
@@ -45,7 +46,6 @@ python -m unittest discover -s tests -v
 
 ```text
 .
-├── .github/workflows/ci.yml
 ├── src/kimi_work_demo/
 │   ├── __init__.py
 │   ├── __main__.py
