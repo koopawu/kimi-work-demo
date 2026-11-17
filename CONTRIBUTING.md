@@ -29,4 +29,4 @@ Thank you for contributing to kimi-work-demo.
 
 - Use [Conventional Commits](https://www.conventionalcommits.org/), for example `feat: add greeting templates` or `fix: handle blank names`.
 - Describe the motivation and testing performed in the pull request.
-- Make sure GitHub Actions passes before requesting review.
+- Run all tests before requesting review.
